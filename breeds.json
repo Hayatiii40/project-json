@@ -2,12 +2,12 @@
     {
         "id": 1,
         "name" : "Labrador",
-        "image": "./Images/Labrador.jpg"
+        "imageUrl": "https://github.com/Hayatiii40/project-json/blob/main/Images/Labrador.jpg?raw=true"
     },
     {
         "id": 2,
         "name" : "Rottweiler",
-        "image": "./Images/Rottweiler.jpg"
+        "imageUrl": "https://github.com/Hayatiii40/project-json/blob/main/Images/Rottweiler.jpg?raw=true"
     }
 
 
