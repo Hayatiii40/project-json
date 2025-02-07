@@ -1,0 +1,15 @@
+[
+    {
+        "id": 1,
+        "name" : "Labrador",
+        "image": "./Images/Labrador.jpg"
+    },
+    {
+        "id": 2,
+        "name" : "Rottweiler",
+        "image": "./Images/Rottweiler.jpg"
+    }
+
+
+
+]
