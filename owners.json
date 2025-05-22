@@ -1,0 +1,38 @@
+[
+  {
+    "id": "OWNER-001",
+    "name": "Dzhaner Ahmed",
+    "profileImageUrl": "Images/RandomPicture1.jpg",
+    "age": 22,
+    "isActive": true,
+    "location": "Antwerpen",
+    "hasOtherPets": true
+  },
+  {
+    "id": "OWNER-002",
+    "name": "Hayati Sahin",
+    "profileImageUrl": "Images/RandomPicture2.jpg",
+    "age":20,
+    "isActive": true,
+    "location": "Wilrijk",
+    "hasOtherPets": true
+  },
+  {
+    "id": "OWNER-003",
+    "name": "Fatih Kilic",
+    "profileImageUrl": "Images/RandomPicture3.jpg",
+    "age": 20,
+    "isActive": false,
+    "location": "Antwerpen",
+    "hasOtherPets": true
+  },
+  {
+    "id": "OWNER-004",
+    "name": "Teoman Palit",
+    "profileImageUrl": "Images/RandomPicture4.jpg",
+    "age": 22,
+    "isActive": true,
+    "location": "Leuven",
+    "hasOtherPets": true
+  }
+]

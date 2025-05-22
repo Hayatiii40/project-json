@@ -1,15 +1,192 @@
 [
-    {
-        "id": 1,
-        "name" : "Labrador",
-        "imageUrl": "https://github.com/Hayatiii40/project-json/blob/main/Images/Labrador.jpg?raw=true"
-    },
-    {
-        "id": 2,
-        "name" : "Rottweiler",
-        "imageUrl": "https://github.com/Hayatiii40/project-json/blob/main/Images/Rottweiler.jpg?raw=true"
+  {
+    "id": "BREED-001",
+    "name": "Golden Retriever",
+    "description": "Een vriendelijke, intelligente en loyale hond die vaak wordt gebruikt als therapiehond.",
+    "age": 4,
+    "isActive": true,
+    "birthDate": "2020-03-10",
+    "imageUrl": "Images/Golden_Retriever.jpeg",
+    "size": "Large",
+    "traits": ["Loyaal", "Vriendelijk", "Intelligent"],
+    "owner": {
+      "id": "OWNER-001",
+      "name": "Dzhaner Ahmed",
+      "profileImageUrl": "Images/RandomPicture1.jpg",
+      "age": 22,
+      "isActive": true,
+      "location": "Antwerpen"
     }
-
-
-
+  },
+  {
+    "id": "BREED-002",
+    "name": "De Anatolische herder",
+    "description": "De Anatolische herder is een hondenras uit Turkije, bekend om zijn slimheid en loyaliteit.",
+    "age": 2,
+    "isActive": true,
+    "birthDate": "2022-06-18",
+    "imageUrl": "Images/Kangal.jpg",
+    "size": "Large",
+    "traits": ["Alert", "Slim", "Loyaal"],
+    "owner": {
+      "id": "OWNER-002",
+      "name": "Hayati Sahin",
+      "profileImageUrl": "Images/RandomPicture2.jpg",
+      "age": 20,
+      "isActive": true,
+      "location": "Wilrijk"
+    }
+  },
+  {
+    "id": "BREED-003",
+    "name": "Rottweiler",
+    "description": "De rottweiler is een hondenras, oorspronkelijk afkomstig uit Duitsland. Actieve, nieuwsgierige hond met een sterk reukvermogen. Ideaal voor gezinnen.",
+    "age": 3,
+    "isActive": true,
+    "birthDate": "2021-11-05",
+    "imageUrl": "Images/Rottweiler.jpg",
+    "size": "Medium",
+    "traits": ["Dapper", "Vriendelijk", "Energisch"],
+    "owner": {
+      "id": "OWNER-003",
+      "name": "Fatih Kilic",
+      "profileImageUrl": "Images/RandomPicture3.jpg",
+      "age": 20,
+      "isActive": false,
+      "location": "Antwerpen"
+    }
+  },
+  {
+    "id": "BREED-004",
+    "name": "Labrador Retriever",
+    "description": "Een van de populairste rassen. Bekend om zijn zachtaardigheid en intelligentie.",
+    "age": 5,
+    "isActive": true,
+    "birthDate": "2019-02-15",
+    "imageUrl": "Images/Labrador.jpg",
+    "size": "Large",
+    "traits": ["Extravert", "Evenwichtig", "Intelligent", "Aardig", "Vriendelijk", "Behendig", "Zachtaardig", "Vertrouwend"],
+    "owner": {
+      "id": "OWNER-004",
+      "name": "Teoman Palit",
+      "profileImageUrl": "Images/RandomPicture4.jpg",
+      "age": 21,
+      "isActive": true,
+      "location": "Brussel"
+    }
+  },
+  {
+    "id": "BREED-005",
+    "name": "Pitbull",
+    "description": "De Amerikaanse pitbullterriër is een hondenras. Dit ras is ontstaan uit de buldog en de terriër in de 19e eeuw. De Amerikaanse staffordshireterriër is voortgekomen uit de Amerikaanse pitbullterriër.",
+    "age": 1,
+    "isActive": true,
+    "birthDate": "2023-01-09",
+    "imageUrl": "Images/Pitbull.jpg",
+    "size": "Small",
+    "traits": ["Behulpzaam", "Koppig", "Sterk"],
+    "owner": {
+      "id": "OWNER-001",
+      "name": "Dzhaner Ahmed",
+      "profileImageUrl": "Images/RandomPicture1.jpg",
+      "age": 22,
+      "isActive": true,
+      "location": "Antwerpen"
+    }
+  },
+  {
+    "id": "BREED-006",
+    "name": "Siberische Husky",
+    "description": " De Siberische Husky is een middelgrote werkhond, snel en vlug op de voeten en elegant van bewegingen",
+    "age": 6,
+    "isActive": true,
+    "birthDate": "2018-07-21",
+    "imageUrl": "Images/Siberische_Husky.jpg",
+    "size": "Medium",
+    "traits": ["Energetisch", "Schattig", "Loyaal"],
+    "owner": {
+      "id": "OWNER-002",
+      "name": "Hayati Sahin",
+      "profileImageUrl": "Images/RandomPicture2.jpg",
+      "age": 20,
+      "isActive": true,
+      "location": "Wilrijk"
+    }
+  },
+  {
+    "id": "BREED-007",
+    "name": "Belgische Herder",
+    "description": "De Belgische herder is een hondenras in vier verschillende varianten: Groenendaeler Laekense herder Mechelse herder Tervuerense herder",
+    "age": 3,
+    "isActive": false,
+    "birthDate": "2021-04-11",
+    "imageUrl": "Images/Belgische_Herder.jpg",
+    "size": "Medium",
+    "traits": ["Beschermend", "Alert", "Snel"],
+    "owner": {
+      "id": "OWNER-003",
+      "name": "Fatih Kilic",
+      "profileImageUrl": "Images/RandomPicture3.jpg",
+      "age": 20,
+      "isActive": false,
+      "location": "Antwerpen"
+    }
+  },
+  {
+    "id": "BREED-008",
+    "name": "De Duitse Herder",
+    "description": "Intelligent en gehoorzaam. Wordt vaak ingezet als werkhond.",
+    "age": 7,
+    "isActive": true,
+    "birthDate": "2017-08-30",
+    "imageUrl": "Images/Duitse-Herder.jpeg",
+    "size": "Large",
+    "traits": ["Zelfzeker", "Slim", "Alert"],
+    "owner": {
+      "id": "OWNER-004",
+      "name": "Teoman Palit",
+      "profileImageUrl": "Images/RandomPicture4.jpg",
+      "age": 21,
+      "isActive": true,
+      "location": "Brussel"
+    }
+  },
+  {
+    "id": "BREED-009",
+    "name": "Kaukasiche Herder",
+    "description": "De Kaukasische owcharka is een hondenras, populair in zijn streek van herkomst: Georgië, Rusland en omringende gebieden in de Kaukasus.",
+    "age": 4,
+    "isActive": true,
+    "birthDate": "2020-12-12",
+    "imageUrl": "Images/Kaukasische_Herder.jpg",
+    "size": "X Large",
+    "traits": ["Dominant", "Sterk", "Alert"],
+    "owner": {
+      "id": "OWNER-001",
+      "name": "Dzhaner Ahmed",
+      "profileImageUrl": "Images/RandomPicture1.jpg",
+      "age": 22,
+      "isActive": true,
+      "location": "Antwerpen"
+    }
+  },
+  {
+    "id": "BREED-010",
+    "name": "Border Collie",
+    "description": "De slimste hond ter wereld. Perfect voor herderswerk en sport. De bordercollie is een middelgroot hondenras uit de groep herdershonden. Het is een populaire hond die ingezet wordt bij verschillende sporten",
+    "age": 5,
+    "isActive": true,
+    "birthDate": "2019-09-01",
+    "imageUrl": "Images/border_collie.jpg",
+    "size": "Medium",
+    "traits": ["Intelligent", "Energiek", "Slim"],
+    "owner": {
+      "id": "OWNER-002",
+      "name": "Hayati Sahin",
+      "profileImageUrl": "Images/RandomPicture2.jpg",
+      "age": 41,
+      "isActive": true,
+      "location": "Wilrijk"
+    }
+  }
 ]
