@@ -22,7 +22,7 @@
     "name": "Fatih Kilic",
     "profileImageUrl": "Images/RandomPicture3.jpg",
     "age": 20,
-    "isActive": false,
+    "isActive": true,
     "location": "Antwerpen",
     "hasOtherPets": true
   },
